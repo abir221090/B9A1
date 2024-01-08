@@ -1,5 +1,5 @@
 body{
-    max-width: 1600px;
+    
      margin: 0;
      padding: 0;
      font-family: 'Inter', sans-serif;
@@ -9,15 +9,17 @@ body{
  header{
      display: flex;
      flex-direction: column;
+     justify-content: center;
+     align-items: center;
  }
  .new-year-banner{
-     background-image:url('Banner Image.png');
-     background-repeat:no-repeat;
-     background-size: cover;
-     background-position: center;
-     height: 600px;
-     width: 0 auto;
-     margin:10px 50px 0px 50px ;
+    background-image: url('Banner Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 1500px ;
+    
+    
  
  
  }
@@ -26,16 +28,43 @@ body{
  color: #FFF;
  text-align: center;
  font-family: Merriweather;
- font-size: 32px;
+ font-size: 25px;
  font-weight: 400;
- margin-top: 110px;
+ margin-top: 10px;
  }    
  
  .new-year-banner-para{
  color: #FFF;
  text-align: center;
  font-family: Merriweather;
- font-size: 72px;
+ font-size: 50px;
  font-weight: 900;
- margin-top: 10px;
+ margin-top: 5px;
  }
+
+ .discount{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+ }
+ .holiday-deal{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom:5px ;
+ }
+ .all-catagories{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: 5px;
+}
+.img-discount-banner{
+    height: 325px;
+}
