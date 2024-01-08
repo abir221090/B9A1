@@ -1,6 +1,6 @@
 body{
     
-     margin: 0;
+     margin: 0 20px;
      padding: 0;
      font-family: 'Inter', sans-serif;
      font-family: 'Merriweather', serif;
@@ -17,7 +17,8 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 1500px ;
+    width: 1400px;
+    height: 600px;
     
     
  
@@ -67,4 +68,52 @@ margin-top: 5px;
 }
 .img-discount-banner{
     height: 325px;
+}
+.midnight-party{
+    background-image: url('Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1300px;
+    position: relative;
+
+}
+.welcome-midnight-party{
+color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; 
+position: absolute;
+left:100px;
+bottom: 50px;
+top: 50px;
+}
+.welcome-midnight-party-para{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+position: absolute;
+left:100px;
+bottom: 20px;
+top:285px;
+}
+.trasparent-button{
+background-color: transparent;
+border:0px;
+color:white;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+position: absolute;
+left:100px;
+bottom:10px;
+top:300px;
+}
+.trasparent-button:hover{
+color: #FFB801;
+text-shadow:black;
 }
