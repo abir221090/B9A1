@@ -128,6 +128,7 @@ main{
     /* border: 1px solid black; */
     margin: 150px 0px;
     border-radius: 5px;
+    padding-top: 100px;
 }
 .red-text{
 color:red;
@@ -157,4 +158,47 @@ font-family: Inter;
     background: #030303;
     color:#ffffff;
     cursor: pointer;
+}
+
+
+.coming-soon{
+    display: flex;
+    gap:50px;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.best-offer{
+color:#F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.coming-sn{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.coming-soon-para{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+}
+#circle-img{
+    border: 10px solid red;
+    padding:10px;
+    height: 200px;
+    width: 200px ;
+    border-radius: 50%;
+}
+#year{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
 }
