@@ -20,9 +20,6 @@ body{
     width: 1400px;
     height: 600px;
     
-    
- 
- 
  }
  
  .new-year-banner-heading{
@@ -67,7 +64,8 @@ font-weight: 700;
 margin-top: 5px;
 }
 .img-discount-banner{
-    height: 325px;
+    height: 500px;
+    margin-bottom: 120px;
 }
 .midnight-party{
     background-image: url('Vectorrr.png');
@@ -87,17 +85,17 @@ font-weight: 900;
 line-height: 88px; 
 position: absolute;
 left:100px;
-bottom: 50px;
+/* bottom: 50px; */
 top: 50px;
 }
 .welcome-midnight-party-para{
-color: rgba(255, 255, 255, 0.80);
+color: rgba(255, 252, 252, 0.952);
 font-family: Inter;
 font-size: 18px;
 font-weight: 400;
 position: absolute;
 left:100px;
-bottom: 20px;
+/* bottom: 20px; */
 top:285px;
 }
 .trasparent-button{
@@ -109,11 +107,49 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 position: absolute;
-left:100px;
-bottom:10px;
-top:300px;
+margin:500px 500px 500px 100px ;
 }
+
 .trasparent-button:hover{
 color: #FFB801;
 text-shadow:black;
+}
+
+/* main section  */
+main{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    text-align: center;
+}
+
+.gradiant-box {
+    background: linear-gradient(to bottom, #FFEAEA, white);
+    /* border: 1px solid black; */
+    margin: 150px 0px;
+    border-radius: 5px;
+}
+.red-text{
+color:red;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+}
+
+
+.grad-box-para{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+}
+.red-button{
+border-radius: 8px;
+background: #F00;
+border:0px;
+padding:16px 32px 16px 32px;
+color:#FFF;
+font-size: 20px;
+font-weight: 700;
+font-family: Inter;
 }
