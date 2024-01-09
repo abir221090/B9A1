@@ -133,7 +133,7 @@ main{
     flex-direction:column ;
     justify-content: center;
     text-align: center;
-    position: absolute;
+    
 }
 
 .gradiant-box {
@@ -358,4 +358,37 @@ font-weight: 600;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
+}
+/* footer section */
+
+footer{
+display: flex;
+justify-content: space-between;
+justify-content: center;
+background-color: #000000;
+margin:0px;
+padding:0;
+   }
+.footer-up-down{
+display: flex;
+gap:550px;
+justify-content: space-between;
+padding-top:30px;
+
+/* border:1px solid orangered;  */
+}
+.footer-p{
+color: #FFF; 
+font-family: Inter; 
+font-size: 12px; 
+font-weight: 500; 
+/* border:1px solid white;  */
+}
+#website{
+    color:white; 
+    font-size:12px;
+    text-decoration: none;
+}
+#website:hover{
+    color:aqua;
 }
