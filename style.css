@@ -194,6 +194,7 @@ font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 margin-bottom:0px;
+text-align: left;
 }
 .coming-sn{
 color: #070211;
@@ -202,6 +203,7 @@ font-size: 48px;
 font-weight: 900;
 margin-top: 10px;
 margin-bottom: 15px;
+text-align: left;
 }
 .coming-soon-para{
 color: rgba(7, 2, 17, 0.60);
@@ -297,4 +299,63 @@ z-index: 0;
 position: absolute;
 top: 400px;
 z-index: 1;
+}
+
+/* awsome portfolio */
+
+.awsome-portfolio{
+    margin:150px 150px 10px 150px;
+
+}
+.img-gallery{
+    margin: 0px 150px 10px 150px;
+justify-content: center;
+align-items: center;
+display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+.newslatter-lead{
+padding-top:60px;
+margin:120px 150px 120px 150px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.Subscribe-Newsletter{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 20px;
+margin-bottom: 0px;
+}
+.Stay-updated{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+margin-top: 0px;
+}
+.input-lead{
+    margin:35px 100px 80px 100px;
+}
+#lead-email{
+padding:37px 300px 30px 30px;
+border-radius:50px 0px 0px 50px;
+background: #FFF;
+border:0px;
+font-weight: 400;
+}
+#lead-subscribe{
+padding:30px 50px 30px 30px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color:#ffffff;
+border:0px;
+font-weight: 600;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
 }
